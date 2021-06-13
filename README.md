@@ -11,7 +11,7 @@ Hi! the main motive behind building this api is to **convert any document into p
 ```
 ## How It Works?
 
- **Doc >> HTML by [Mammoth](https://github.com/mwilliamson/mammoth.js#readme) >> PDF by [Html-pdf-node library](https://github.com/mrafiqk/html-pdf-node#readme)**
+ **Doc >> HTML by using [Mammoth](https://github.com/mwilliamson/mammoth.js#readme) >> PDF by using [Html-pdf-node library](https://github.com/mrafiqk/html-pdf-node#readme)**
 ## Install
 
     npm install
