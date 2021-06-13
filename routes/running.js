@@ -15,23 +15,28 @@ router.get('/available', (req, res) =>{
 router.post('/convert',(req, res) =>{
     const file = req.body;
 
-    getConvertedPdfBase64(file.base64).then(result =>{
-        let responseJSON = [
-            {
-                status : "Success",
-                base64: result
-            }
-        ];
-        res.send(JSON.stringify(responseJSON));
-    }).catch(error =>{
-        let responseJSON = [
-            {
-                status : "Error"+error
-            }
-        ];
+    if(file.base64){
+        getConvertedPdfBase64(file.base64).then(result =>{
+            let responseJSON = [
+                {
+                    status : "Success",
+                    base64: result
+                }
+            ];
+            res.send(JSON.stringify(responseJSON));
+        }).catch(error =>{
+            let responseJSON = [
+                {
+                    status : "Error"+error
+                }
+            ];
 
-        res.send(JSON.stringify(responseJSON));
-    })
+            res.send(JSON.stringify(responseJSON));
+        })
+    }else{
+        res.send('Error');
+    }
+
    
 });
 

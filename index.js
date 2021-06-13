@@ -16,6 +16,6 @@ app.get('/',(req, res)=>{
     res.sendFile('serviceRunning.html',{root: './html files'});
 });
 
-app.listen(process.env.PORT || 5000, () =>{
+app.listen(process.env.PORT || PORT, () =>{
     console.log(`SERVER RUNNING ON PORT: http://localhost:${PORT}`);
 });
