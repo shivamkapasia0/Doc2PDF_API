@@ -85,7 +85,7 @@ xhr.send(data);
 
 ##  Progress
 
-Currently it is in development phase as it doesn't have many features as well as error handling of data to be improved and it has more bugs than features😂😂. so your contribution will be appreciated🙏.
+Currently it is in development phase as it doesn't have many features as well as error handling of data to be improved and ~~it has more bugs than features~~😂😂. so your contribution will be appreciated🙏.
 
 
 ## License
