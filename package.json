@@ -1,0 +1,28 @@
+{
+  "name": "Doc2PDF_API",
+  "version": "1.0.0",
+  "description": "API to convert doc into pdf",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Shivam Kapasia",
+  "license": "ISC",
+  "dependencies": {
+    "atob": "^2.1.2",
+    "epress": "0.0.1-security",
+    "express": "^4.17.1",
+    "html-pdf-node": "^1.0.7",
+    "html2pdf.js": "^0.9.3",
+    "mammoth": "^1.4.17",
+    "requirejs": "^2.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "engines": {
+    "node": "14.16.0"
+  }
+}
