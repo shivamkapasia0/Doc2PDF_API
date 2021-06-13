@@ -26,7 +26,7 @@ router.post('/convert',(req, res) =>{
     }).catch(error =>{
         let responseJSON = [
             {
-                status : "Error"
+                status : "Error"+error
             }
         ];
 
