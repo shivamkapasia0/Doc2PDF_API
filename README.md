@@ -14,6 +14,12 @@ Hi! the main motive behind building this api is to **convert any document into p
  **Doc >> HTML by using [Mammoth](https://github.com/mwilliamson/mammoth.js#readme) >> PDF by using [Html-pdf-node library](https://github.com/mrafiqk/html-pdf-node#readme)**
 ## Install
 
+### Clone the repo
+```
+https://github.com/shivamkapasia0/Doc2PDF_API.git
+```
+### Install npm packages
+
     npm install
 
 ## Run the app locally
