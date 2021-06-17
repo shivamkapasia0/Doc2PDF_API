@@ -74,7 +74,6 @@ var data = JSON.stringify({
 });
 
 var xhr = new XMLHttpRequest();
-xhr.withCredentials = true;
 
 xhr.addEventListener("readystatechange", function() {
   if(this.readyState === 4) {
