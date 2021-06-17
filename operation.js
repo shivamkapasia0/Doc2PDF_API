@@ -27,7 +27,7 @@ function getHtml(base64){
             mammoth.convertToHtml({buffer: Buffer.from(base64, 'base64').toString('binary')}).then(result =>{
             var html = result.value; // The generated HTML
             var messages = result.messages; // Any messages, such as warnings during conversion
-            console.log('html'+html);
+           //console.log('html'+html);
             resolve(html);
     }).catch(error =>{
         reject(error);

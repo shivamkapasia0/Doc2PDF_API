@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "Shivam Kapasia",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "atob": "^2.1.2",
     "epress": "0.0.1-security",
