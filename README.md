@@ -70,7 +70,7 @@ https://doc2pdf-api.herokuapp.com/service/convert
 ```
 var data = JSON.stringify({
   "mimeType": ".doc",
-  "base64": ""
+  "base64": "Docxbase64here"
 });
 
 var xhr = new XMLHttpRequest();
